@@ -42,13 +42,13 @@ Customer churn refers to customers who stop using a company's service. For subsc
 | Recall (Churn) | 0.63 | 0.60 | Logistic Regression |
 | F1-score (Churn) | 0.58 | 0.58 | Tie |
 
-Random Forest achieved higher overall accuracy, but Logistic Regression caught more actual churners (higher recall) — an important trade-off, since missing a churner is costlier than a false alarm.
+Random Forest achieved higher overall accuracy, but Logistic Regression caught more actual churners (higher recall).
 
 ## 5. Key Insights
 
 - Contract type is one of the strongest predictors — month-to-month customers churn far more than those on longer contracts
 - Newer customers (low tenure) churn more frequently
-- Class imbalance means accuracy alone isn't enough — precision/recall/F1 give a fuller picture
+  
 
 ## 6. Conclusion
 
